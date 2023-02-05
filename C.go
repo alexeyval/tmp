@@ -22,7 +22,10 @@ func main() {
 
 	for scanner.Scan() {
 		text := scanner.Text()
-		fmt.Println(text)
+		//for _, c := range text {
+		//
+		//}
+		_ = text
 	}
 	fmt.Println("OK")
 }
